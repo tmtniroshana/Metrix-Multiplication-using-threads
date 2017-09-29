@@ -1,0 +1,35 @@
+Test case 01
+	
+	Metrix A is 2x2 & Metrix B is 2x2.
+
+	Runtime without threads = 5ms
+	Runtime using threads = 15ms
+
+Test case 02
+
+	Metrix A is 8x8 & Metrix B is 8x8.
+
+	Runtime without threads = 16ms
+	Runtime using threads = 38ms
+
+Test case 03
+
+	Metrix A is 20x10 & Metrix B is 10x10.
+
+	Runtime without threads = 15ms
+	Runtime using threads = 35ms
+
+Test case 04
+	Metrix A is 200x100 & Metrix B is 100x50.
+
+	Runtime without threads = 990ms
+	Runtime using threads = 1011ms
+
+Test case 05
+	Metrix A is 1000x50 & Metrix B is 50x1000.
+
+	Runtime without threads = 701ms
+	Runtime using threads = 613ms
+
+
+	some times runtime of using thread value is grater than without thread. Because may be final metrix print time is high and when using small metrix time is normaly higher than without threads. 
